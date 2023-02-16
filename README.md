@@ -16,9 +16,13 @@ For this assignment, create a folder and name it `operators-control-flow`. Put t
 
 3. Bolatito just got admitted to Greenfield High School as an `Arts student`. To commence her studies, she needs to know the `subjects` she will be taking as an `Arts student`. All students have to take the General subjects.
 	The subjects for each class group are as follows:
+    
 Science Subjects - `Physics, Chemistry, Biology, Technical Drawing` 
+
 Social Science Subjects - `Accounting, Commerce, Marketing, Geography`
+
 Arts Subjects - `Government, Economics, Literature, History`
+
 General Subjects - `English, Mathematics`
 
 Using `if…else conditional statement`, write a program that will help Bolatito determine the subjects she will be taking for the session using her class group. Also, in the case of an `invalid` class group, your output should be the `General subjects.` 
@@ -27,7 +31,7 @@ Using `if…else conditional statement`, write a program that will help Bolatito
 4. What is the result when the following program is executed?
 
 for (let i = 1; i < 20; i += 7) {
-    
+
     console.log(i);
 }
 
