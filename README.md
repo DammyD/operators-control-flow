@@ -27,6 +27,7 @@ Using `if…else conditional statement`, write a program that will help Bolatito
 4. What is the result when the following program is executed?
 
 for (let i = 1; i < 20; i += 7) {
+    
     console.log(i);
 }
 
