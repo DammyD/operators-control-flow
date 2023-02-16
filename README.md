@@ -16,7 +16,7 @@ For this assignment, create a folder and name it `operators-control-flow`. Put t
 
 3. Bolatito just got admitted to Greenfield High School as an `Arts student`. To commence her studies, she needs to know the `subjects` she will be taking as an `Arts student`. All students have to take the General subjects.
 	The subjects for each class group are as follows:
-    
+
 Science Subjects - `Physics, Chemistry, Biology, Technical Drawing` 
 
 Social Science Subjects - `Accounting, Commerce, Marketing, Geography`
@@ -90,3 +90,37 @@ If num = 50, pwr = 64.. Then you log to your console in this format:
 - Bitwise OR (|)
 - Bitwise NOT (~)
 - Bitwise XOR (^)
+
+
+2. For each JavaScript Operator, write 2 examples.
+
+# Arithmetic Operators
+# Multplication (*)
+let a = 4;
+let b = 3;
+
+let multiply = a * b;
+console.log(multiply); // 12
+
+# Exponent (**)
+let a = 5;
+let b = 5;
+
+let exponent = a ** b;
+console.log(exponent); // 25
+
+# Assignment Operators
+# Simple assignment (=)
+let a = 2;
+
+# Addition assignment (+=)
+let x = 10;
+x += 5; // equivalent to x = x + 5
+console.log(x); // 15
+
+# Comparison Operators
+# Equal to (==)
+console.log(2 == 2); // true
+
+# Strict equal to (===)
+console.log(5 === '5'); // false
