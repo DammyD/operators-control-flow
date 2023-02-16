@@ -97,16 +97,20 @@ If num = 50, pwr = 64.. Then you log to your console in this format:
 # Arithmetic Operators
 # Multplication (*)
 let a = 4;
+
 let b = 3;
 
 let multiply = a * b;
+
 console.log(multiply); // 12
 
 # Exponent (**)
 let a = 5;
+
 let b = 5;
 
 let exponent = a ** b;
+
 console.log(exponent); // 25
 
 # Assignment Operators
@@ -115,12 +119,16 @@ let a = 2;
 
 # Addition assignment (+=)
 let x = 10;
+
 x += 5; // equivalent to x = x + 5
+
 console.log(x); // 15
 
 # Comparison Operators
 # Equal to (==)
+
 console.log(2 == 2); // true
 
 # Strict equal to (===)
+
 console.log(5 === '5'); // false
