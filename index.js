@@ -9,23 +9,6 @@ General Subjects - English, Mathematics
 Using if…else conditional statement, write a program that will help Bolatito determine the subjects she will be taking for the session using her class group. Also, in the case of an invalid class group, your output should be the General subjects. 
 */
 
-// let classGroup = ("Please enter Bolatito's class group: ");
-
-// let science = 'Physics, Chemistry, Biology, Technical Drawing';
-// let socialScience = 'Accounting, Commerce, Marketing, Geography';
-// let arts = 'Government, Economics, Literature, History';
-// let generalSubjects = 'English, Mathematics';
-
-// if(classGroup === science) {
-//     console.log(science);
-// } else if(classGroup === socialScience) {
-//     console.log(socialScience);
-// } else if (classGroup === arts) {
-//     console.log(arts);
-// } else
-// console.log(generalSubjects);
-
-
 let classGroup = "Arts";
 
 if (classGroup === "Science") {
@@ -37,6 +20,10 @@ if (classGroup === "Science") {
 } else {
   console.log("Invalid class group. Bolatito will be taking the General Subjects: English and Mathematics.");
 }
+
+// In a situation where the classGroup is an empty string, it output the else statement
+
+
 
 // 4. What is the result when the following program is executed?
 for (let i = 1; i < 20; i += 7) {
@@ -71,12 +58,9 @@ function findNearestPowerOf2(num) {
       power = i;
       i++;
     }
-  
-    // return the result
+
     return 2 ** power;
-  }
-  
-  // example usage
-  console.log(findNearestPowerOf2(10)); // output: 8
-//   console.log(findNearestPowerOf2(20)); // output: 16
-//   console.log(findNearestPowerOf2(40)); // output: 32
+}
+
+console.log(findNearestPowerOf2(10));
+console.log(findNearestPowerOf2(20));
