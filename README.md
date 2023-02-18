@@ -71,13 +71,15 @@ If num = 50, pwr = 64.. Then you log to your console in this format:
 - Modulus assignment (%=)
 
 # Comparison Operators
-- Equal to (==)
-- Strict to (===)
-- Not equal to (!=)
 - Greater than (>)
 - Less than (<)
 - Greater than or equal to (>=)
 - Less than or equal to (<=)
+
+# Equality Operators
+- Equal to (==)
+- Strict to (===)
+- Not equal to (!=)
 - Strict not equal to (!==)
 
 # Logical Operators
@@ -125,10 +127,44 @@ x += 5; // equivalent to x = x + 5
 console.log(x); // 15
 
 # Comparison Operators
-# Equal to (==)
 
-console.log(2 == 2); // true
+# Greater than (>)
+let a = 7;
+
+let b = 5;
+
+console.log(a > b); //true
+
+# Less than (<)
+let c = 4;
+
+let d = 2;
+
+console.log(c < d); // false
+
+# Equality Operators
+
+# Equal to (==)
+let e = 5;
+
+let f = 5;
+
+console.log(e == f); // true
 
 # Strict equal to (===)
+let i = 5;
 
-console.log(5 === '5'); // false
+let j = '5';
+
+console.log(i === j); // false
+
+4. What is the result when the following program is executed?
+for (let i = 1; i < 20; i += 7) {
+
+    console.log(i);
+}
+
+// Output
+1
+8
+15
