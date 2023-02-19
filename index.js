@@ -21,7 +21,7 @@ if (classGroup === "Science") {
   console.log("Invalid class group. Bolatito will be taking the General Subjects: English and Mathematics.");
 }
 
-// In a situation where the classGroup is an empty string, it output the else statement
+// In a situation where the classGroup is an empty string or None, it output the else statement
 
 
 
@@ -45,22 +45,24 @@ If num = 50, pwr = 64.. Then you log to your console in this format:
 “The number 64 is the power of 2 nearest to 50.”
  */
 
+let num = 40; // replace with any positive number
+let pwr = findNearestPowerOf2(num);
+
 function findNearestPowerOf2(num) {
     // check if the input is positive
+
     if (num <= 0) {
-      return "Please enter a positive number.";
+      return 0;
     }
   
     // find the nearest power of 2 to the input number using a for loop
-    let power = 0;
-    let i = 0;
-    while (2 ** i < num) {
-      power = i;
-      i++;
+    let nearestPower = 1;
+
+    while (nearestPower * 2 <= num) {
+      nearestPower *= 2;
     }
 
-    return 2 ** power;
+    return nearestPower;
 }
+console.log("The number " + pwr + " is the power of 2 nearest to " + num + ".");
 
-console.log(findNearestPowerOf2(10));
-console.log(findNearestPowerOf2(20));
