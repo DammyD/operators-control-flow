@@ -163,12 +163,15 @@ console.log(i === j); // false
 
 # Conditional Operators
 
-# Ternary Operato
+# Ternary Operator
 
 let cash = 1000;
+
 let expenses = 2000;
 
-if (cash <= expenses) ? console.log("Transaction \n successful"); : console.log("Insufficient funds");
+if (cash <= expenses) ? console.log("Transaction
+
+ successful"); : console.log("Insufficient funds");
 
 # Logical Operators
 
@@ -185,16 +188,25 @@ console.log(5 < 3 || 7 < 5) // false
 
 # Bitwise AND (&)
 const a = 5; // binary representation: 101
+
 const b = 3; // binary representation: 011
-const result1 = a & b; // result: 1 (binary representation: 001)
+
+const result1 = a & b; // result: 1 (binary representation:
+
+ 001)
 
 # Bitwise OR (|)
 const c = 5; // binary representation: 101
+
 const d = 3; // binary representation: 011
-const result2 = c | d; // result: 7 (binary representation: 111)
+
+const result2 = c | d; // result: 7 (binary representation:
+
+ 111)
 
 
 4. What is the result when the following program is executed?
+
 for (let i = 1; i < 20; i += 7) {
 
     console.log(i);
@@ -202,5 +214,7 @@ for (let i = 1; i < 20; i += 7) {
 
 // Output
 1
+
 8
+
 15
