@@ -170,7 +170,6 @@ let cash = 1000;
 let expenses = 2000;
 
 if (cash <= expenses) ? console.log("Transaction
-
  successful"); : console.log("Insufficient funds");
 
 # Logical Operators
@@ -192,7 +191,6 @@ const a = 5; // binary representation: 101
 const b = 3; // binary representation: 011
 
 const result1 = a & b; // result: 1 (binary representation:
-
  001)
 
 # Bitwise OR (|)
@@ -201,7 +199,6 @@ const c = 5; // binary representation: 101
 const d = 3; // binary representation: 011
 
 const result2 = c | d; // result: 7 (binary representation:
-
  111)
 
 
@@ -213,6 +210,7 @@ for (let i = 1; i < 20; i += 7) {
 }
 
 // Output
+
 1
 
 8
