@@ -41,14 +41,14 @@ For example,
 If num = 40, pwr = 32. Then you log to your console in this format:
 “The number 32 is the power of 2 nearest to 40.”
 
-If num = 50, pwr = 64.. Then you log to your console in this format:
+If num = 70, pwr = 64.. Then you log to your console in this format:
 “The number 64 is the power of 2 nearest to 50.”
  */
 
-let num = 40; // replace with any positive number
-let pwr = findNearestPowerOf2(num);
+let num = 10;
+let pwr = NearestPowerOf2(num);
 
-function findNearestPowerOf2(num) {
+function NearestPowerOf2(num) {
     // check if the input is positive
 
     if (num <= 0) {
@@ -56,13 +56,13 @@ function findNearestPowerOf2(num) {
     }
   
     // find the nearest power of 2 to the input number using a for loop
-    let nearestPower = 1;
+    let nearestPowerOf2 = 1;
 
-    while (nearestPower * 2 <= num) {
-      nearestPower *= 2;
+    while (nearestPowerOf2 * 2 <= num) {
+      nearestPowerOf2 *= 2;
     }
 
-    return nearestPower;
+    return nearestPowerOf2;
 }
 console.log("The number " + pwr + " is the power of 2 nearest to " + num + ".");
 
