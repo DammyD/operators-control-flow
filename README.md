@@ -202,7 +202,7 @@ const result2 = c | d; // result: 7 (binary representation:
  111)
 
 
-4. What is the result when the following program is executed?
+4. # What is the result when the following program is executed?
 
 for (let i = 1; i < 20; i += 7) {
 
