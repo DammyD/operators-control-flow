@@ -66,7 +66,4 @@ function NearestPowerOf2(num) {
 }
 console.log("The number " + pwr + " is the power of 2 nearest to " + num + ".");
 
-let girl = "blessing";
-console.log("my name is " + girl);
-console.log(`My name is ${girl}`);
 
