@@ -45,7 +45,7 @@ If num = 70, pwr = 64.. Then you log to your console in this format:
 “The number 64 is the power of 2 nearest to 50.”
  */
 
-let num = 10;
+let num = 5;
 let pwr = NearestPowerOf2(num);
 
 function NearestPowerOf2(num) {
@@ -65,4 +65,8 @@ function NearestPowerOf2(num) {
     return nearestPowerOf2;
 }
 console.log("The number " + pwr + " is the power of 2 nearest to " + num + ".");
+
+let girl = "blessing";
+console.log("my name is " + girl);
+console.log(`My name is ${girl}`);
 
